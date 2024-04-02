@@ -1,0 +1,75 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.content-home {
+  text-align: center;
+}
+
+.deposit-balance-container {
+  display: flex;
+}
+.balance-container {
+  display: flex;
+  margin-right: 50px;
+}
+#deposit-button {
+  border: none;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  background-color: aliceblue;
+}
+.container-content {
+  display: flex;
+  max-width: 100%; /* Gambar akan menyesuaikan lebar container */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+  border: none;
+}
+.content {
+  flex: 1; /* Konten akan menyesuaikan lebar secara merata */
+  padding: 50px;
+  border: 1px solid #ccc;
+  margin-right: 10px; /* Jarak antar konten */
+  max-width: 100%; /* Gambar akan menyesuaikan lebar container */
+  height: auto; /* Mempertahankan rasio aspek gambar */
+  border: none;
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+.game-column {
+  display: flex;
+  justify-content: center;
+
+}
+
+.game-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.game-box img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.game-box h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.game-box a {
+  text-decoration: none;
+  color: #333;
+}
+
+.game-box a:hover {
+  color: #666;
+}
